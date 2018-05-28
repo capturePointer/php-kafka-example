@@ -5,7 +5,10 @@ Had to use docker-compose run to make this work
 ```
   docker-compose run -p32181:32181 -d zookeeper
 ```
-  docker ps //get the CONTAINER ID of zookeeper
+get the CONTAINER ID of zookeeper
+```
+docker ps
+```
 
 The Docker Host IP:
 ```
